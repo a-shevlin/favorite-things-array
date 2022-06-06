@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <title>Favorite things Form</title>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Answer These Questions!</h1>
+    </div>
+    <form id="things">
+      <div>
+        <div class="row">
+          <div class="col-6" id="qOne">
+            <label for="number"> Please type in your favorite number.
+              <input id="number" class="form-control" type="text" placeholder="Type your favorite number!" required>
+            </label>   
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6" id="qTwo">
+            <label for="animal">Please type in your favorite animal.
+              <input id="animal" class="form-control" type="text" placeholder="Type your favorite animal!">
+            </label>
+          </div>
+          <div class="col-6" id="qThree">
+            <ul class="unstyled" id="array">
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn-lg" id="submit">Submit!</button>
+    </form>
+  </div>
+</body>
+</html>
